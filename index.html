@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | Beranda</title>
+    <style>
+        body {
+    font-family: 'Roboto Slab', serif;
+    background-image: url("https://i.pinimg.com/736x/95/95/4b/95954b2ee4507096a8c2a94a4dbe3c7e.jpg");
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+
+    margin: 0;
+}
+
+       header {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+                      url("https://i.pinimg.com/originals/aa/b8/9c/aab89cfc0c043c32ddf3859862458756.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+nav {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+                      url("https://i.pinimg.com/736x/5e/7a/f5/5e7af59714a1a41ecc4454c880b78234.jpgg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 15px;
+    text-align: center;
+}
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* GRID UTAMA */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        /* TEKS KIRI */
+        .content-text h2 {
+            color: #4A5D23;
+        }
+
+        .content-text p {
+            text-align: justify;
+        }
+
+        /* GRID GAMBAR KANAN */
+    .content-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        gap: 0;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .content-gallery img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+        footer {
+    background-image: url("https://i.pinimg.com/736x/98/49/0a/98490a1add3fdeb038082e1bda1180c3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 20px;
+}
+
+        /* RESPONSIVE (HP) */
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Portofolio Fathiyya Zahra</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <div class="content-grid">
+
+        <!-- BAGIAN KIRI: TEKS (WAJIB DIISI SENDIRI) -->
+        <div class="content-text">
+
+            <h2>Selamat Datang di Website Portofolio</h2>
+            <p>
+                Website ini merupakan media pendukung untuk menampilkan hasil
+                Ujian Praktik Terintegrasi. Konten utama pada website ini adalah
+                video broadcasting pembelajaran yang berisi penyampaian teks
+                argumentasi secara lisan.
+            </p>
+
+            <h2>Tentang Website Ini</h2>
+            <p>
+                Website ini merupakan website portofolio digital yang berisi
+                hasil karya dan pembelajaran saya selama mengikuti Ujian Praktik
+                Terintegrasi.
+            </p>
+
+            <h2>Tujuan Pembuatan Website</h2>
+            <p>
+                Tujuan pembuatan website ini adalah untuk menampilkan karya
+                yang telah saya buat serta melatih kemampuan saya dalam
+                membuat website sederhana menggunakan HTML.
+            </p>
+
+            <h2>Topik Argumentasi dan Alasan Pemilihan</h2>
+            <p>
+                <i>
+                Topik Argumentasi untuk ini adalah Internship Curriculum (IC). Dan saya memilih bidang animasi karena saya emang sudah ingin mencoba untuk membuat animasi sejak saya kecil.
+                </i>
+            </p>
+
+            <h2>Harapan dari Video</h2>
+            <p>
+                <i>
+                Harapan dari video yang saya buat adalah untuk memberi informasi tentang pengalaman pribadi saya saat melakukan kegiatan IC di bidang animasi.
+                </i>
+            </p>
+
+            <h2>Refleksi, Kesan, dan Pesan</h2>
+            <p>
+                <i>
+               Kesan dan pesan saya selama kelas 9 ini adalah selalu mencoba yang terbaik, jangan lalai dalam melakukan sesuatu, dan tidak mudah menyerah.
+                </i>
+            </p>
+
+        </div>
+
+        <!-- BAGIAN KANAN: GRID GAMBAR (BEBAS KREATIF) -->
+        <div class="content-gallery">
+            <img src="https://i.pinimg.com/originals/a0/a4/87/a0a4870ca57a90fb4884dbf04d54b56e.gif" alt="Gambar Bebas 1">
+            <img src="https://i.pinimg.com/736x/58/93/5c/58935c227219ddfcc47d2fd05a8005e0.jpg" alt="Gambar Bebas 2">
+            <img src="https://i.pinimg.com/736x/89/05/bd/8905bd5a6dbd4c0c8e91665dfc4b4c1a.jpg" alt="Gambar Bebas 3">
+            <img src="https://i.pinimg.com/originals/f5/1a/36/f51a36228892ecfb12c1eefaedbb3cf0.gif" alt="Gambar Bebas 4">
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Fathiyya Zahra@2026 </p>
+</footer>
+
+</body>
+</html>

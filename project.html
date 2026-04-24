@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | My Project</title>
+
+
+
+    <style>
+        body {
+            font-family: 'Roboto Slab', serif;
+            background-image: url("https://i.pinimg.com/736x/95/95/4b/95954b2ee4507096a8c2a94a4dbe3c7e.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            color: #4A5D23; /* moss green */
+        }
+
+        header {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+                      url("https://i.pinimg.com/originals/aa/b8/9c/aab89cfc0c043c32ddf3859862458756.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+        /* NAV */
+        nav {
+            background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+                              url("https://i.pinimg.com/736x/98/49/0a/98490a1add3fdeb038082e1bda1180c3.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* CONTAINER */
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .container h2 {
+            color: #4A5D23; /* moss green */
+            text-align: center;
+        }
+
+        .container p {
+            text-align: center;
+        }
+
+        /* PROJECT GRID */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .project-card {
+            background-color: #f5f5f5;
+            border-radius: 15px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        .project-card a {
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #4A5D23; /* moss green */
+            background-color: #ffffff;
+        }
+
+        .project-card a:hover {
+            background-color: #4A5D23;
+            color: white;
+        }
+
+        /* FOOTER */
+        footer {
+            background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+                              url("https://i.pinimg.com/736x/98/49/0a/98490a1add3fdeb038082e1bda1180c3.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Portofolio Fathiyya Zahra</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <h2>My Project</h2>
+    <p><i>Halaman ini menampilkan kumpulan proyek yang pernah saya buat. Klik untuk melihat hasil karya.</i></p>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <img src="project1.jpg">
+            <a href="#">Video Argumentasi</a>
+        </div>
+
+        <div class="project-card">
+            <img src="project2.jpg">
+            <a href="#">Website Portofolio</a>
+        </div>
+
+        <div class="project-card">
+            <img src="https://i.pinimg.com/1200x/66/79/61/667961103e7365cd58cf0ecfd66f747e.jpg">
+            <a href="https://scratch.mit.edu/projects/1265210671/fullscreen/" target="_blank">
+                Game Edukasi
+            </a>
+        </div>
+
+        <div class="project-card">
+            <img src="project4.jpg">
+            <a href="#">Proyek Lainnya</a>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Fathiyya Zahra@2026</p>
+</footer>
+
+</body>
+</html>
